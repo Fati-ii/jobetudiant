@@ -1,0 +1,96 @@
+body{
+   background-color: ghostwhite;
+}
+form{
+   
+    border-top: solid 1px rgba(255, 196, 0, 0.71);
+    margin: 1% 19%;
+    padding-bottom: 5%;
+    background-color: 	#F5F5F5;
+    height: 100%;
+    
+}
+form:hover{
+    border-bottom: solid 1px rgba(255, 196, 0, 0.71);
+}
+
+
+h1{
+    color: rgba(255, 196, 0, 0.71);
+    text-align: center;
+    margin-top: 25px;
+}
+label{
+    margin-left: 20%;
+    margin-bottom: 1%;
+    display: block;
+}
+input{
+    height: 30px;
+    margin-left: 20%;
+    max-width: 50%;
+    width: 100%;
+    border: none;
+    border-top: solid 1px;
+    outline: none; /* Enlève le contour par défaut */
+}
+        /*FOCUS*/
+input:focus{
+    background-color: #f5faff;  
+}
+        /*HOVER*/
+input,button:hover{
+    border-top: solid 1px rgba(255, 196, 0, 0.71);
+}
+
+button{
+    margin-left: 20%;
+    margin-top: 20px;
+}
+button:focus{
+    background: burlywood;
+}
+
+        /*Accueil*/
+ul{
+margin: 5%;
+display: flex;
+border-left:solid 5px blanchedalmond;
+flex-wrap: wrap;
+
+
+}
+ul li{
+    margin: 20px;
+    text-align: center;
+    list-style: none;
+    border:solid 1px blanchedalmond;
+    height: 35px;
+    padding: 5px;
+    background-color: burlywood;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+}
+.underline{
+    margin: 4% 40%;
+    width: auto;
+    border-bottom: solid 2px ;
+}
+a{
+    text-decoration: none;
+    color: black;
+    border-bottom: solid 3px blanchedalmond;
+    font-size: large;
+    font-weight: bold;
+    margin-left: 5%;
+    
+}
+
+@keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
+a:hover{
+    color:burlywood;
+}
